@@ -1,0 +1,81 @@
+.popup{
+	background: transparent;
+	position: fixed;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	z-index: 1021;
+	transition: all 0.3s ease-in-out;
+	transform: scale(0);
+}
+.popup-container-add,.popup-container-detail{
+	position: relative;
+	width: 1000px;
+	max-width: 100%;
+	min-height: 600px;
+	padding: 25px;
+	overflow: hidden;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 10px;
+	background: #fff;
+	transition: .6s ease-in-out;
+}
+.main{
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+}
+.blur{
+	filter: blur(20px);
+}
+.container-fluid{
+	padding: 0;
+}
+.profile-img img {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.detail-item {
+	text-align: center;
+    margin: 5px 0px;
+}
+.profile-detail {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+}
+.popup .name {
+	font-size: 18px;
+}
+.profile-detail .name-title  {
+	font-size: 20px;
+	font-weight: 400;
+}
+.profile-detail .name {
+	font-size: 20px;
+	font-weight: 500;
+}
+.profile-title {
+	font-weight: bold;
+}
+.area-activy-new {
+	padding: 0 0 0 25px;
+}
+.area-nef {
+	max-height: 400px;
+	overflow: auto;
+}
+.area-nef-item {
+	font-size: 18px;
+	margin: 11px;
+	border-bottom: solid 1px black;
+}
+.left {
+	margin-right: 15px;
+}
